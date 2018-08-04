@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: main - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\pupu\AppData\Local\Temp\RSP9064.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/main.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\c++learn\network\Ethernet\main.cpp"
+]
+Creating command line "cl.exe @C:\Users\pupu\AppData\Local\Temp\RSP9064.tmp" 
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+G:\c++learn\network\Ethernet\main.cpp(49) : warning C4305: 'initializing' : truncation from 'const int' to 'const char'
+G:\c++learn\network\Ethernet\main.cpp(49) : warning C4309: 'initializing' : truncation of constant value
+G:\c++learn\network\Ethernet\main.cpp(49) : warning C4305: 'initializing' : truncation from 'const int' to 'const char'
+G:\c++learn\network\Ethernet\main.cpp(49) : warning C4309: 'initializing' : truncation of constant value
+G:\c++learn\network\Ethernet\main.cpp(49) : warning C4305: 'initializing' : truncation from 'const int' to 'const char'
+G:\c++learn\network\Ethernet\main.cpp(49) : warning C4309: 'initializing' : truncation of constant value
+G:\c++learn\network\Ethernet\main.cpp(49) : warning C4305: 'initializing' : truncation from 'const int' to 'const char'
+G:\c++learn\network\Ethernet\main.cpp(49) : warning C4309: 'initializing' : truncation of constant value
+G:\c++learn\network\Ethernet\main.cpp(49) : warning C4305: 'initializing' : truncation from 'const int' to 'const char'
+G:\c++learn\network\Ethernet\main.cpp(49) : warning C4309: 'initializing' : truncation of constant value
+G:\c++learn\network\Ethernet\main.cpp(49) : warning C4305: 'initializing' : truncation from 'const int' to 'const char'
+G:\c++learn\network\Ethernet\main.cpp(49) : warning C4309: 'initializing' : truncation of constant value
+G:\c++learn\network\Ethernet\main.cpp(50) : warning C4305: 'initializing' : truncation from 'const int' to 'const char'
+G:\c++learn\network\Ethernet\main.cpp(50) : warning C4309: 'initializing' : truncation of constant value
+G:\c++learn\network\Ethernet\main.cpp(50) : warning C4305: 'initializing' : truncation from 'const int' to 'const char'
+G:\c++learn\network\Ethernet\main.cpp(50) : warning C4309: 'initializing' : truncation of constant value
+G:\c++learn\network\Ethernet\main.cpp(78) : error C2065: 'getline' : undeclared identifier
+G:\c++learn\network\Ethernet\main.cpp(152) : error C2296: '+' : illegal, left operand has type 'class std::fpos<int> (__thiscall std::basic_istream<char,struct std::char_traits<char> >::*'
+G:\c++learn\network\Ethernet\main.cpp(159) : error C2666: '+' : 2 overloads have similar conversions
+G:\c++learn\network\Ethernet\main.cpp(162) : error C2065: 'file' : undeclared identifier
+G:\c++learn\network\Ethernet\main.cpp(162) : error C2228: left of '.close' must have class/struct/union type
+G:\c++learn\network\Ethernet\main.cpp(178) : error C2228: left of '.get' must have class/struct/union type
+G:\c++learn\network\Ethernet\main.cpp(184) : error C2228: left of '.get' must have class/struct/union type
+G:\c++learn\network\Ethernet\main.cpp(188) : error C2374: 'i' : redefinition; multiple initialization
+        G:\c++learn\network\Ethernet\main.cpp(175) : see declaration of 'i'
+G:\c++learn\network\Ethernet\main.cpp(195) : error C2065: 'nCheck' : undeclared identifier
+G:\c++learn\network\Ethernet\main.cpp(204) : error C2374: 'i' : redefinition; multiple initialization
+        G:\c++learn\network\Ethernet\main.cpp(175) : see declaration of 'i'
+G:\c++learn\network\Ethernet\main.cpp(218) : error C2065: 'checkCRC' : undeclared identifier
+G:\c++learn\network\Ethernet\main.cpp(259) : error C2666: '-' : 3 overloads have similar conversions
+G:\c++learn\network\Ethernet\main.cpp(260) : error C2666: '-' : 3 overloads have similar conversions
+G:\c++learn\network\Ethernet\main.cpp(265) : error C2065: 'nCurrDatalength' : undeclared identifier
+G:\c++learn\network\Ethernet\main.cpp(266) : error C2664: 'read' : cannot convert parameter 1 from 'unsigned char *' to 'char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+G:\c++learn\network\Ethernet\main.cpp(308) : error C2664: 'CRCcheck' : cannot convert parameter 1 from 'int' to 'char &'
+        A reference that is not to 'const' cannot be bound to a non-lvalue
+G:\c++learn\network\Ethernet\main.cpp(321) : error C2228: left of '.tellg' must have class/struct/union type
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+main.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
